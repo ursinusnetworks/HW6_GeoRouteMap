@@ -102,14 +102,10 @@ def plot_ips(ips):
     ips: list of string/None
         IPs that were traced
     """
-    import cartopy.crs as ccrs
-    import matplotlib.pyplot as plt
     from urllib import request
     import json
     import numpy as np
 
     base_url = "http://ip-api.com/json"
-    ax = plt.axes(projection=ccrs.PlateCarree())
-    ax.stock_img()
 
     ## TODO: Fill this in
