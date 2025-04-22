@@ -104,7 +104,6 @@ def plot_ips(ips):
     """
     from urllib import request
     import json
-    import numpy as np
 
     base_url = "http://ip-api.com/json"
 
